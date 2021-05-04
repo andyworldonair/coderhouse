@@ -1,0 +1,463 @@
+/* Hoja de estilos portafolio Miguel Prieto */
+   
+
+
+body {
+    margin:0px;
+    background-color: #ffffff;
+}
+
+
+#Bio {  
+    grid-area: Bio;
+
+ }
+#Web {
+    grid-area: Web;
+    background-color:#c51c70;
+    grid-template-columns: 50vw 50vw;
+}
+#Background1 {
+    grid-area: Background1;
+    background-color:#d6609a;
+}
+#Branding {
+    grid-area: Branding;
+    grid-template-columns: 50vw 50vw;
+    background-color:#c51c70;
+}
+#Background2 {
+    grid-area: Background2;
+    background-color:#ffffff;
+}
+#videoHome {
+    grid-area: videoHome; 
+    background-color:#c51c70;
+    
+}
+#Diseño {
+    grid-area: Diseño;  
+    background-color:#d6609a;
+    grid-template-columns: 50vw 50vw; 
+}
+#Background3 {
+    grid-area: Background3;  
+    background-color:#f3d1e2;
+}
+#Footer {
+    grid-area: Footer;
+    background-color:#c51c70;
+    grid-template-columns: 25vw 25vw 25vw 25vw;  
+}
+#Copyright {
+    grid-area: Copyright;
+
+background-color: #000000;
+font-family: "Helvetica-Light";
+align-content: center;
+text-align: center;
+font-size: 16px;
+color: #ffffff;
+padding-top: 15px;
+padding-bottom:15px;
+    
+}
+
+#header  {
+width: 100vw;
+height: 100px;
+
+}
+
+#headerContacto  {
+    width: 100vw;
+    height: 400px;
+    background-image: url("CABECERAS/Header_Seccion_Video.jpg");
+    background-repeat: no-repeat;
+}
+
+#headerWeb  {
+    width: 100vw;
+    height: 400px;
+    background-image: url("CABECERAS/Header_Seccion_Web.jpg");
+    background-repeat: no-repeat;
+}
+
+#headerVideo  {
+    width: 100vw;
+    height: 400px;
+    background-image: url("CABECERAS/Header_Seccion_Video.jpg");
+    background-repeat: no-repeat;
+}
+
+#headerDiseno  {
+    width: 100vw;
+    height: 400px;
+    background-image: url("CABECERAS/Header_Seccion_Diseno.jpg");
+    background-repeat: no-repeat;
+}
+
+#headerBranding  {
+    width: 100vw;
+    height: 400px;
+    background-image: url("CABECERAS/Header_Seccion_Branding.jpg");
+    background-repeat: no-repeat;
+}
+
+
+#iconoHeader {
+    padding: 25px 500px 20px 200px;
+    display: inline-block;
+    float: left;
+    animation-duration: 1s;
+    animation-name: iconoFadeIn;
+}
+
+
+@keyframes iconoFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+
+
+#menuEstilo{
+    display:grid;
+    grid-template-columns: 10% 13% 15% 18% 13% 18%;
+    padding: 35px 35px 0px 0px;
+    list-style-type: none;
+    justify-items: right;    
+    font-family: "Futura";
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	padding: 4px;
+    color: #ffffff;
+}
+
+.parrafo {
+
+    font-family: "Helvetica-Light";
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    animation-duration: 5s;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+#botonMenu1{
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+#botonMenu2{
+    animation-duration: 2s;
+    animation-name: fadeIn;
+}#botonMenu3{
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}#botonMenu4{
+    animation-duration: 4s;
+    animation-name: fadeIn;
+}#botonMenu5{
+    animation-duration: 5s;
+    animation-name: fadeIn;
+}#botonMenu6{
+    animation-duration: 6s;
+    animation-name: fadeIn;
+}
+
+@keyframes botonMenu1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+
+ @keyframes botonMenu2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+ @keyframes botonMenu3 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+ @keyframes botonMenu4 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+ @keyframes botonMenu5 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+ @keyframes botonMenu6 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+ 
+
+
+
+
+
+.divParrafo {
+    width: 37%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 180px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.divParrafoTitulo {
+    width: 90%;
+    text-align: left;
+    font-family: "Futura";
+    font-size: 24px;
+    font-weight: bolder;
+    color: #555;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+
+.divParrafoTexto {
+    width: 80%;
+    font-family: "Helvetica-Light";
+    text-align: left;
+    font-size: 20px;
+    color: #555;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+}
+
+
+.video {
+    width: 48%;
+    display: inline-block;
+   
+}
+    
+h1{
+    font-family: "Futura";
+    text-align: left;
+    font-size: 32px;
+    color: #555;
+    font-weight: bolder;
+}
+
+
+h2{
+    font-family: "Futura";
+    font-size: 24px;
+    color: #555;
+    font-weight: bolder;
+    }
+
+p{
+    font-family: "Helvetica-Light";
+    
+    font-size: 16px;
+    color: #555;
+}
+
+
+#moduloWeb {
+    background-color:#ffffff;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start       
+}
+
+#moduloImagenDer {
+
+    background-color:#c51c70;
+    height: 400px;
+    flex-basis: 60%;
+    order:2;
+    flex-grow:0;
+        }
+
+#moduloTextIzq {
+
+    background-color:#ffffff;
+    height: 400px;
+    flex-basis: 40%;
+    order:2;
+    flex-grow:0;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+    text-align: center;
+    
+}
+
+
+#moduloGaleriaA{
+
+    background-color:#ffffff;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start       
+}
+
+
+#moduloGaleriaA1 {
+
+    background-color:#c51c70;
+    height: 400px;
+    flex-basis: 50%;
+    flex-grow:0;
+}
+
+
+#moduloGaleriaA2{
+
+    background-color:#d6609a;
+    height: 400px;
+    flex-basis: 50%;
+    flex-grow:0;
+}
+
+
+
+#moduloGaleriaB{
+
+    background-color:#ffffff;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start       
+}
+
+
+#moduloGaleriaB1{
+
+    background-color:#d6609a;
+    height: 400px;
+    flex-basis: 33%;
+    flex-grow:0;
+}
+
+
+#moduloGaleriaB2{
+
+    background-color: #e7a4c5;
+    height: 400px;
+    flex-basis: 33%;
+    flex-grow:0;
+}
+
+#moduloGaleriaB3{
+
+    background-color:#f3d1e2;
+    height: 400px;
+    flex-basis: 33%;
+    flex-grow:1;
+}
+
+
+#moduloGaleriaC{
+
+    background-color:#ffffff;
+    height: 800px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start       
+}
+
+
+#moduloGaleriaC1{
+
+    background-color:#c51c70;
+    height: 800px;
+    flex-basis: 100%;
+    flex-grow:1;
+}
+
+
+#footerContacto {
+
+display: flex;
+flex-direction: row;
+justify-content:center
+}
+
+
+#Home{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 300px 400px 400px 400px 300px 720px 400px 400px 400px 50px;
+    grid-template-areas:
+                        "Bio Bio Bio Bio"
+                        "Web Web Web Web"
+                        "Background1 Background1 Background1 Background1"
+                        "Branding Branding Branding Branding"
+                        "Background2 Background2 Background2 Background2"
+                        "videoHome videoHome videoHome videoHome"
+                        "Diseño Diseño Diseño Diseño"
+                        "Background3 Background3 Background3 Background3"
+                        "Footer Footer Footer Footer"
+                        "Copyright Copyright Copyright Copyright"
+    
+ }
+ 
